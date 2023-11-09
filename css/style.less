@@ -1,0 +1,44 @@
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body {
+    .flexcolumn();
+    width: 95%;
+
+    .hiveRow {
+        .flexrow();
+        width: 95%;
+        justify-content: space-evenly;
+        margin: 1em;
+
+        .theHive {
+            .flexcolumn();
+
+            div {
+                .transparent {
+                    color: white;
+                }
+                .hive {
+                    background-color: yellow;
+                    border-radius: 40%;
+                    color: #ffd00094;
+                }
+                .bottom {
+                    box-shadow: #ffd00094 0px 4px;
+                }
+            }
+        }
+        
+    }
+}
